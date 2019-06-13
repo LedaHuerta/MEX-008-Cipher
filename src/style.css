@@ -1,7 +1,13 @@
-/*Determinar color dde fondo*/
+/*Determinar color de fondo*/
 body { background-color:#c7eee1;
+    width: 100%;
 }
 
+main {
+    width: 1200px;
+    margin: 20px auto;
+    background-color: aliceblue;
+}
 /*ubicar elementos*/
 img.centrado {
     display: block;    
@@ -13,6 +19,28 @@ img.derecha {
     margin-left: 95%;
     margin-right: 20%;
 }
+h1 { text-align: center;
+    font-size: 3em;
+    color: #179c86;
+    padding: 1em;
+    margin:1em,2 em,1em;
+}
+h2 { text-align: center;
+    font-size: 3em;
+    color: #064044;
+    padding: 1em;
+    margin:1em,2 em,1em;
+}
+/*Dar estilo a elementos*/
+ article {
+    text-align: justify;
+    font-size: 1 em;
+    color: #064044;
+
+}
 b {
     color: #4c2882;
+}
+p #metamorfosis {
+    font-size:40px;
 }
