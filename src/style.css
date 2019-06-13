@@ -1,2 +1,13 @@
+/*Determinar color dde fondo*/
 body { background-color:#c7eee1;
+}
+/*tamaño de imagenes*/
+/*centrar elementos*/
+img.centrado {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+}
+b {
+    color: #4c2882;
 }
