@@ -1,6 +1,12 @@
+.hide {
+    display: none;
+}
+
 /*Determinar color de fondo*/
 body { background-color:#c7eee1;
     width: 100%;
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
 }
 
 main {
@@ -41,6 +47,6 @@ h2 { text-align: center;
 b {
     color: #4c2882;
 }
-p #metamorfosis {
-    font-size:40px;
+button #metamorfosis { background-color: none;
+    
 }
