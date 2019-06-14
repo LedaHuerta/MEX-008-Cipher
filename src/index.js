@@ -20,3 +20,7 @@ const metamorfosisBack = () => {
 //Crear un evento que desencadene la función//
 buttonMetamorfosis.addEventListener('click',metamorfosis);
 buttonMetamorfosisBack.addEventListener('click',metamorfosisBack);
+
+//Crear botones que desencadenan las funciones cifrar y descifrar//
+const buttonCode = document.getElementById('button-code');
+const buttonDecode = document.getElementById('button-decode')

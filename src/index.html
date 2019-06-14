@@ -66,16 +66,19 @@
       <button id='button-metamorfosis-back'>M  E  T  A  M  O  R  F  O  S  I  S</button>
       <br>
       <hr>
+    <!--Creando caja para imprimir el resultado -->
       <p id='content-1'></p>
       <hr>
+    <!--Creando input para mensaje-->
       <div>
-         <input type="text" id='text-input' placeholder='Cuéntame tu historia'>
+      <input type="text" id='text-input' placeholder='Cuéntame tu historia'>
       </div>
       <hr>
+    <!--Creando select para offset y botones para cifrar y descifrar-->
       <div>
-        <label> Key</label> 
-        <select id='select-key'>
-            <option value="offset"></option>
+        <label>Key*</label> 
+        <select id='select-key' required>
+            <option value=''>Choose One</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -107,9 +110,13 @@
             <option value="29">29</option>
             <option value="30">30</option>
             </select>
-        
-            <button id='button-code'></button>Code</button> 
-            <button id='button-decode'>Decode</button>
+        <button id='button-code'></button>Code</button> 
+        <button id='button-decode'>Decode</button>
+      </div>
+      <hr>
+      <div>
+         <button id='button-copy' type="button">Copy</button>
+         <button id='button-clear' type="reset">Clear</button>
       </div>
     </section>
 
