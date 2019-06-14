@@ -27,11 +27,11 @@ const buttonDecode = document.getElementById('button-decode');
 
 //Crear funcion que obtenga los valores del HTML e invoque cipher//
 buttonCode.addEventListener('click',() => {
-    let offSetKey = document.getElementById('select-key').value;
-    //console.log(offSetKey);//
-    //console.log(typeof[offSetKey]);//
-    let textInput = document.getElementById ('text-input');
-    console.log(textInput.value);
-}
+    let textInput = document.getElementById ('text-input').value;
+    let offsetKey = document.getElementById('select-key').value;
+    console.log(offsetKey);
+    console.log(textInput);
+    //enlazar cipher//
+   }
 )
 
