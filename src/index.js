@@ -23,4 +23,15 @@ buttonMetamorfosisBack.addEventListener('click',metamorfosisBack);
 
 //Crear botones que desencadenan las funciones cifrar y descifrar//
 const buttonCode = document.getElementById('button-code');
-const buttonDecode = document.getElementById('button-decode')
+const buttonDecode = document.getElementById('button-decode');
+
+//Crear funcion que obtenga los valores del HTML e invoque cipher//
+buttonCode.addEventListener('click',() => {
+    let offSetKey = document.getElementById('select-key').value;
+    //console.log(offSetKey);//
+    //console.log(typeof[offSetKey]);//
+    let textInput = document.getElementById ('text-input');
+    console.log(textInput.value);
+}
+)
+
