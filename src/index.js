@@ -1,6 +1,9 @@
 //Las variables llaman a los elementos en el HTML de la sección fake: button//
 const buttonMetamorfosis = document.getElementById ('button-metamorfosis');
 const buttonMetamorfosisBack = document.getElementById ('button-metamorfosis-back');
+//Las variables llaman a los elementos en el HTML de la sección cipher//
+const buttonClear = document.getElementById('button-clear');
+
 //variable para mostrar segunda sección//
 const showCipherSection = document.getElementById('cipher-caesar');
 //variable para ocultar la primera sección//
@@ -25,13 +28,16 @@ buttonMetamorfosisBack.addEventListener('click',metamorfosisBack);
 const buttonCode = document.getElementById('button-code');
 const buttonDecode = document.getElementById('button-decode');
 
-//Crear funcion que obtenga los valores del HTML e invoque cipher//
+//Crear funcion que obtenga los valores del HTML//
 buttonCode.addEventListener('click',() => {
-    let textInput = document.getElementById ('text-input').value;
+    let stringInput = document.getElementById ('text-input').value;
     let offsetKey = document.getElementById('select-key').value;
-    console.log(offsetKey);
-    console.log(textInput);
-    //enlazar cipher//
-   }
-)
+    //console.log(offsetKey);//
+    // console.log(stringInput);// 
+    document.getElementById('content-1').innerHTML = window.cipher.encode (offsetKey.value, stringInput.value);
+});
 
+//Crear una funcion que limpie los campos//
+buttonClear.addEventListener('click',() => {
+    const clearAll = document.getElementById('my-form').reset();
+});
