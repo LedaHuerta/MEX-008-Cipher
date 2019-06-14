@@ -37,9 +37,12 @@ h2 { text-align: center;
     padding: 1em;
     margin:1em,2 em,1em;
 }
+li{
+    text-align: justify;
+}
 /*Dar estilo a elementos*/
  article {
-    text-align: justify;
+    text-align: center;
     font-size: 1 em;
     color: #064044;
 
@@ -58,10 +61,20 @@ input#text-input{
     height: 150px;
 }
 ::placeholder{
+    font-family: 'Gochi Hand', cursive;
     text-align: center;
     font-size: 3em;
 }
 button#button-metamorfosis{ 
+    background-color: #0a5c5f;
+    color:whitesmoke;
+    font-size: 1 em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 600px;
+    height: 25px;
+}
+
+button#button-metamorfosis-back{ 
     background-color: #0a5c5f;
     color:whitesmoke;
     font-size: 1 em;
