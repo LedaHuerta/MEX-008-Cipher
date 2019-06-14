@@ -34,6 +34,7 @@ buttonCode.addEventListener('click',(e) => {
     e.preventDefault();
     let stringInput = document.getElementById ('text-input').value;
     stringInput = stringInput.toUpperCase();
+    console.log (stringInput);
     let offsetKey = document.getElementById('select-key').value;
     offsetKey = parseInt(offsetKey);
     //console.log(typeof offsetKey);//
