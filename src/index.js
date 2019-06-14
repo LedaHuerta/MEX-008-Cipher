@@ -29,19 +29,29 @@ buttonMetamorfosisBack.addEventListener('click',metamorfosisBack);
 const buttonCode = document.getElementById('button-code');
 const buttonDecode = document.getElementById('button-decode');
 
-//Crear funcion que obtenga los valores del HTML//
+//Crear funcion que obtenga los valores del HTML para cifrar//
 buttonCode.addEventListener('click',(e) => {
     e.preventDefault();
     let stringInput = document.getElementById ('text-input').value;
     stringInput = stringInput.toUpperCase();
-    console.log (stringInput);
+   // console.log (stringInput);//
     let offsetKey = document.getElementById('select-key').value;
     offsetKey = parseInt(offsetKey);
     //console.log(typeof offsetKey);//
     // console.log(stringInput);// 
     document.getElementById('content-1').innerHTML = window.cipher.encode (offsetKey, stringInput);
 });
-
+//Crear una función que obtenga los vaores del HTML para descifrar//
+buttonDecode.addEventListener ('click',(e) => {
+    e.preventDefault();
+    let stringInput = document.getElementById('text-input').value;
+    stringInput = stringInput.toUpperCase();
+    //console.log(stringInput);//
+    let offsetKey = document.getElementById('select-key').value;
+    offsetKey = parseInt(offsetKey);
+    //console.log (typeof offsetKey);//
+    document.getElementById ('content-1').innerHTML = window.cipher.decode (offsetKey, stringInput);
+});
 //Crear una funcion que limpie los campos//
 buttonClear.addEventListener('click',() => {
     const clearAll = document.getElementById('my-form').reset();
