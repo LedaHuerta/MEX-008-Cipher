@@ -30,12 +30,15 @@ const buttonCode = document.getElementById('button-code');
 const buttonDecode = document.getElementById('button-decode');
 
 //Crear funcion que obtenga los valores del HTML//
-buttonCode.addEventListener('click',() => {
+buttonCode.addEventListener('click',(e) => {
+    e.preventDefault();
     let stringInput = document.getElementById ('text-input').value;
+    stringInput = stringInput.toUpperCase();
     let offsetKey = document.getElementById('select-key').value;
-    //console.log(offsetKey);//
+    offsetKey = parseInt(offsetKey);
+    //console.log(typeof offsetKey);//
     // console.log(stringInput);// 
-    document.getElementById('content-1').innerHTML = window.cipher.encode (offsetKey.value, stringInput.value);
+    document.getElementById('content-1').innerHTML = window.cipher.encode (offsetKey, stringInput);
 });
 
 //Crear una funcion que limpie los campos//
