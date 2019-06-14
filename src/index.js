@@ -3,6 +3,7 @@ const buttonMetamorfosis = document.getElementById ('button-metamorfosis');
 const buttonMetamorfosisBack = document.getElementById ('button-metamorfosis-back');
 //Las variables llaman a los elementos en el HTML de la sección cipher//
 const buttonClear = document.getElementById('button-clear');
+const buttonCopy = document.getElementById('button-copy');
 
 //variable para mostrar segunda sección//
 const showCipherSection = document.getElementById('cipher-caesar');
@@ -20,7 +21,7 @@ const metamorfosisBack = () => {
     showCipherSection.classList.add('hide');
 }
 
-//Crear un evento que desencadene la función//
+//Crear un evento que desencadene la función //
 buttonMetamorfosis.addEventListener('click',metamorfosis);
 buttonMetamorfosisBack.addEventListener('click',metamorfosisBack);
 
@@ -40,4 +41,14 @@ buttonCode.addEventListener('click',() => {
 //Crear una funcion que limpie los campos//
 buttonClear.addEventListener('click',() => {
     const clearAll = document.getElementById('my-form').reset();
+});
+//Crear una funcion que seleccione y copie el texto//
+buttonCopy.addEventListener('click',() => {
+    let copyCode = document.getElementById('text-input').value;
+    let seleccion = document.createRange();
+    seleccion.selectNodeContents (copyCode);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(seleccion);
+    let resCopy = document.execCommand('copy');
+    window.getSelection().removeRange(seleccion);
 });
