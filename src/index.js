@@ -41,7 +41,7 @@ buttonCode.addEventListener('click',(e) => {
     // console.log(stringInput);// 
     document.getElementById('content-1').innerHTML = window.cipher.encode (offsetKey, stringInput);
 });
-//Crear una función que obtenga los vaores del HTML para descifrar//
+//Crear una función que obtenga los valores del HTML para descifrar//
 buttonDecode.addEventListener ('click',(e) => {
     e.preventDefault();
     let stringInput = document.getElementById('text-input').value;
@@ -54,7 +54,8 @@ buttonDecode.addEventListener ('click',(e) => {
 });
 //Crear una funcion que limpie los campos//
 buttonClear.addEventListener('click',() => {
-    const clearAll = document.getElementById('my-form').reset();
+    // const clearAll = document.getElementById('my-form').reset();
+    document.getElementById ('content-1').innerHTML = '';
 });
 //Crear una funcion que seleccione y copie el texto//
 buttonCopy.addEventListener('click',() => {
@@ -63,6 +64,6 @@ buttonCopy.addEventListener('click',() => {
     seleccion.selectNodeContents (copyCode);
     window.getSelection().removeAllRanges();
     window.getSelection().addRange(seleccion);
-    let resCopy = document.execCommand('copy');
+    // let resCopy = document.execCommand('copy');
     window.getSelection().removeRange(seleccion);
 });

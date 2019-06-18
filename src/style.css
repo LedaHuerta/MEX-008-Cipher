@@ -1,85 +1,97 @@
 .hide {
-    display: none;
+  display: none;
 }
 
 /*Determinar color de fondo*/
-body { background-color:#c7eee1;
-    width: 100%;
-    font-family: 'Gochi Hand', cursive;
-    text-align: center;
+body {
+  background-color: #c7eee1;
+  width: 100%;
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
 }
 
 main {
-    width: 1200px;
-    margin: 20px auto;
-    background-color: aliceblue;
+  width: 1200px;
+  margin: 20px auto;
+  background-color: aliceblue;
 }
+
 /*ubicar elementos*/
 img.centrado {
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 img.derecha {
-    display: block;    
-    margin-left: 95%;
-    margin-right: 20%;
+  display: block;
+  margin-left: 95%;
+  margin-right: 20%;
 }
-h1 { text-align: center;
-    font-size: 3em;
-    color: #179c86;
-    padding: 1em;
-    margin:1em,2 em,1em;
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #179c86;
+  padding: 1em;
+  margin: 1em, 2 em, 1em;
 }
-h2 { text-align: center;
-    font-size: 3em;
-    color: #064044;
-    padding: 1em;
-    margin:1em,2 em,1em;
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  color: #064044;
+  padding: 1em;
+  margin: 1em, 2 em, 1em;
 }
-li{
-    text-align: justify;
+
+li {
+  text-align: justify;
 }
 
 /*Dar estilo a elementos*/
- article {
-    text-align: center;
-    font-size: 1 em;
-    color: #064044;
+article {
+  text-align: center;
+  font-size: 1em;
+  color: #064044;
 
 }
+
 b {
-    color: #4c2882;
+  color: #4c2882;
 }
 
-p#content-1{
-    width: 600px;
-    height: 300px;
-    background-color: aliceblue;
-}
-input#text-input{
-    width: 600px;
-    height: 150px;
-}
-::placeholder{
-    font-family: 'Gochi Hand', cursive;
-    text-align: center;
-    font-size: 3em;
-}
-button#button-metamorfosis{ 
-    background-color: #0a5c5f;
-    color:whitesmoke;
-    font-size: 1 em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 600px;
-    height: 25px;
+p#content-1 {
+  width: 600px;
+  height: 300px;
+  background-color: aliceblue;
 }
 
-button#button-metamorfosis-back{ 
-    background-color: #0a5c5f;
-    color:whitesmoke;
-    font-size: 1 em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 600px;
-    height: 25px;
+input#text-input {
+  width: 600px;
+  height: 150px;
+}
+
+::placeholder {
+  font-family: 'Gochi Hand', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+button#button-metamorfosis {
+  background-color: #0a5c5f;
+  color: whitesmoke;
+  font-size: 1 em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  height: 25px;
+}
+
+button#button-metamorfosis-back {
+  background-color: #0a5c5f;
+  color: whitesmoke;
+  font-size: 1 em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 600px;
+  height: 25px;
 }
