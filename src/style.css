@@ -1,33 +1,34 @@
+/*Importando fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600&display=swap');
+/*asignar qué hace mi clase*/
 .hide {
   display: none;
 }
 
-/*Determinar color de fondo*/
+/*Determinar estilos por seccion*/
 body {
   background-color: #c7eee1;
   width: 100%;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
   text-align: center;
 }
 
 main {
-  width: 1200px;
-  margin: 20px auto;
-  background-color: aliceblue;
+  margin: 20px 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fcffff;
 }
 
 /*ubicar elementos*/
 img.centrado {
+  width: 20%;
+  height: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-img.derecha {
-  display: block;
-  margin-left: 95%;
-  margin-right: 20%;
-}
 
 h1 {
   text-align: center;
@@ -44,7 +45,11 @@ h2 {
   padding: 1em;
   margin: 1em, 2 em, 1em;
 }
-
+hr {
+  height: 3px;
+  background-color: #666666;
+  border: none;
+}
 li {
   text-align: justify;
 }
@@ -63,35 +68,49 @@ b {
 
 p#content-1 {
   width: 600px;
-  height: 300px;
-  background-color: aliceblue;
+  height: 180px;
+  background: url(logo-marca-letra-m.png);
+  background-position: center center;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 input#text-input {
   width: 600px;
-  height: 150px;
+  height: 180px;
+  background-color: #fcffff;
+  position: center center;
+  margin: auto;
+  border: hidden;
 }
 
-::placeholder {
-  font-family: 'Gochi Hand', cursive;
+::placeholder { background-color: #fcffff;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
+  letter-spacing: 20px;
 }
 
 button#button-metamorfosis {
-  background-color: #0a5c5f;
-  color: whitesmoke;
-  font-size: 1 em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 600px;
-  height: 25px;
+  background-color: #fcffff;
+  color: #666666;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  font-size: 200%;
+  letter-spacing: 15px;
+  width: 100%;
+  height: 100px;
+  border: hidden;
+  margin: auto
 }
 
 button#button-metamorfosis-back {
-  background-color: #0a5c5f;
-  color: whitesmoke;
-  font-size: 1 em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 600px;
-  height: 25px;
+  background-color: #fcffff;
+  color: #666666;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  font-size: 200%;
+  letter-spacing: 15px;
+  width: 1000px;
+  height: 100px;
+  border: hidden;
 }
