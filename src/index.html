@@ -23,9 +23,9 @@
       <hr>
       <article>
         <h1>5 Tips de belleza que toda mujer debe saber</h1>
-        <h2>Lucir bien no tiene que significar gastar demasiado o sufrir mucho.<br>
-          <img class="centrado" id="img-central" src="./img/central.gif" width="80%" height="80%">
-          Se trata de saber elegir y aplicar los sencillos consejos que aquí te revelamos.</h2>
+        <h2>Lucir bien no tiene que significar gastar demasiado o sufrir mucho.
+            Se trata de saber elegir y aplicar los sencillos consejos que aquí te revelamos.</h2>
+        <div><img class="centrado" id="img-central" src="./img/central.gif"></div>
         <p id="introduccion">Pararte derecha con mucha confianza y creer en ti misma son aspectos importantes para
           que te sientas bien contigo misma. Después de todo, al irradiar seguridad irradias belleza.
           Sin embargo, toda mujer que se para frente a un espejo puede decir que los secretos de
@@ -81,8 +81,9 @@
         <hr>
         <!--Creando select para offset y botones para cifrar y descifrar-->
         <div id="func-buttons">
-          <label>Key*</label>
+          <label id="label-key" >Key*</label>
           <input id="select-key" type="number" required value="">
+          <span id="l-1">|</span>
           <!--<label>Key*</label>
           <select id="select-key" required>
             <option value="">Choose One</option>
@@ -118,6 +119,7 @@
             <option value="30">30</option>
           </select>-->
           <button id="button-code">Code</button>
+          <span>|</span>
           <button id="button-decode">Decode</button>
         </div>
         <hr>

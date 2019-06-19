@@ -29,21 +29,25 @@ img.centrado {
   margin-right: auto;
 }
 
+img#img-central{
+  width: 50%;
+  height: 50%;
+}
 
 h1 {
   text-align: center;
   font-size: 3em;
   color: #179c86;
-  padding: 1em;
-  margin: 1em, 2 em, 1em;
+  padding: 0;
+  margin: 1em, 2 em, 0em;
 }
 
 h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #064044;
-  padding: 1em;
-  margin: 1em, 2 em, 1em;
+  padding: 0;
+  margin: 0em, 2 em, 1em;
 }
 hr {
   height: 3px;
@@ -85,6 +89,13 @@ input#text-input {
   border: hidden;
 }
 
+input#text-input:focus {
+  background-color: #fcffff;
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 0px;
+}
+
 ::placeholder { background-color: #fcffff;
   font-family:'Fira Sans Extra Condensed', sans-serif;
   text-align: center;
@@ -110,7 +121,63 @@ button#button-metamorfosis-back {
   font-family:'Fira Sans Extra Condensed', sans-serif;
   font-size: 200%;
   letter-spacing: 15px;
-  width: 1000px;
+  width: 100%;
   height: 100px;
   border: hidden;
+}
+
+button#button-metamorfosis:focus,
+button#button-metamorfosis-back {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 0px;
+}
+
+label#label-key{
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  color: #666666;
+  font-size: 100%;
+  letter-spacing: 3px;
+}
+input#select-key{
+  text-align: center;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  color: #666666;
+  font-size: 100%;
+  width: 38px;
+  height: 18px;
+}
+
+button#button-code,
+button#button-decode {
+  background-color: #fcffff;
+  color: #666666;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  font-size: 100%;
+  letter-spacing: 3px;
+  width: 70px;
+  height: 18px;
+  border: hidden;
+}
+button#button-code:focus,
+button#button-decode {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 0px;
+}
+
+span#l-1{
+  background-color: #fcffff;
+  color: #666666;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  margin-left: 20px;
+  margin-right: 10px;  
+}
+
+span{
+  background-color: #fcffff;
+  color: #666666;
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;  
 }
