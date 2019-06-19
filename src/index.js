@@ -3,7 +3,7 @@ const buttonMetamorfosis = document.getElementById ('button-metamorfosis');
 const buttonMetamorfosisBack = document.getElementById ('button-metamorfosis-back');
 //Las variables llaman a los elementos en el HTML de la sección cipher//
 const buttonClear = document.getElementById('button-clear');
-const buttonCopy = document.getElementById('button-copy');
+//const buttonCopy = document.getElementById('button-copy');//
 
 //variable para mostrar segunda sección//
 const showCipherSection = document.getElementById('cipher-caesar');
@@ -46,13 +46,13 @@ buttonCode.addEventListener('click',(e) => {
 buttonDecode.addEventListener ('click',(e) => {
     e.preventDefault();
     let text = '';
+    //elige entre los campos//
     let stringInput = document.getElementById('content-1').innerHTML;
     if (stringInput !== '') {
         text = stringInput;
     } else {
-        text =document.getElementById ('text-input').value;
+        text = document.getElementById ('text-input').value;
     }
-
     //stringInput = stringInput.toUpperCase();//
     //console.log(stringInput);//
     let offsetKey = document.getElementById('select-key').value;

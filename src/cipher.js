@@ -3,7 +3,7 @@ window.cipher = {
   encode: (offset, string) => {
 //se crea variable de salida//
     let result = '';
-    console.log(string);
+//console.log(string);//
 //Obtener la longitud del input //
     for (let i = 0; i < string.length; i++) {
       let positionAscii = string.charCodeAt(i);
