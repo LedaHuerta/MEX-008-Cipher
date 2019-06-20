@@ -1,3 +1,26 @@
+# M E T A M O R F O S I S
+
+Aplicación web de Cifrado César que sirve para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (offset).
+## Pre-requisitos 📋
+La empresa otorga la dirección web de la app al usuario y lo capacita acerca de su funcionamiento al enviarlo a su misión.
+#UX
+## Research 🚀
+
+Primero se planteó el contexto:
+
+•	¿En qué situaciones de la vida real se necesita cifrar un mensaje?
+
+•	¿Quiénes son los principales usuarios del producto?
+
+•	¿Cuáles son los objetivos de estos usuarios en relación con el producto?
+
+•	¿Cómo resuelve el producto sus necesidades?
+
+•	¿Cómo debe ser la experiencia de uso?
+
+Empecé investigando las aplicaciones similares que existen en el mercado, comparando las características que había entre ellas, quienes son los usuarios y qué problema podía resolver.
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
