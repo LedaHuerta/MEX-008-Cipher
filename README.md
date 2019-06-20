@@ -32,14 +32,19 @@ Empecé investigando las aplicaciones similares que existen en el mercado, compa
 Después entreviste a un usuario de CONFIDE, quién me informo lo siguiente:
 
 ¿Para que usas la aplicación?
+
 R= Para enviar mensajes sin que nadie los vea o entienda.
+
 ¿Por qué necesitas cifrar mensajes?
-R=Trabajo con información delicada y me gusta mantener la privacidad de mis asuntos
+
+R=Trabajo con información delicada y me gusta mantener la privacidad de mis asuntos.
+
 ¿Qué funcionalidad debe tener una app de cifrado para ti?
+
 R= Que cifre y descifre sin problema, que sea discreta para que no de curiosidad y la quieran abrir que es lo que me pasa con confide. Que no se traba ni sea lenta, que pueda usarla desde cualquier sitio y dispositivo.
 
 ## Insights 📢
-•	_Los medios de comunicación utilizan herramientas de cifrado de mensajes como canal con sus reportes encubiertos._
+•	_Los medios de comunicación utilizan herramientas de cifrado de mensajes como canal con sus reporteros encubiertos._
 
 •	_Según el  informe 2018 que elaboró el Colectivo de Análisis de la Seguridad con Democracia (CASEDE) —el cual se dará a conocer el 24 de septiembre de ese mismo año— sobre la Libertad de expresión, protección y seguridad de periodistas y personas defensoras de derechos humanos: 8 de cada 10 reporteros y activistas fueron amenazados de muerte, acosados o padecieron ataques físicos y verbales tanto por autoridades estatales y federales como por el narcotráfico._
 
@@ -47,9 +52,9 @@ R= Que cifre y descifre sin problema, que sea discreta para que no de curiosidad
 
 ![datos](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/datos-reporteros.jpg)
 
-Así surgió la información suficiente para crear un usuario:
+### Así surgió la información suficiente para crear un usuario:
 
-## User Persona (Arquetipo Persona) 
+## User Persona (Arquetipo Persona) 🐧
 
 ![user-persona](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/user-persona.png)
 
@@ -113,15 +118,41 @@ Al recibir feedback se concluyó que una página de agradecimiento no era necesa
 Escogí una paleta en tonos azules, blancos y grises que inspira confianza y es discreta, el diseño es minimalista y femenino, disumulando la funcionalidad real de la aplicación.
 El diseño se implementó bajo el concepto de una inocente página de belleza que cualquier mujer consulta regularmente.
 ```
-# Aplicación Funcionando:
-![](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/)
+# Aplicación Funcionando 🚥 ⌨️
+
 ### Este es el artículo de seguridad:
 
+![art-fake-web](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/art-fake.png)
 
-###
+### Esta es la aplicación de cifrado:
+
+![app-cipher-web](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/app-cipher.png)
 
 
+## Construido con 🛠️
 
+### HTML5
+### CSS3
+### JS ES6
+
+## Autores ✒️
+
+🤓 Leda Huerta
+
+## Expresiones de Gratitud 🎁
+
+Quiero hacer mención especial de las personas que me apoyaron y me acompañaron de cerca en el proceso para crear éste, mi primer proyecto oficial:
+
+❤️ Mi familia, son mi soporte!!
+
+❤️ Mis compañeras de Squad, aprendo mucho de cada una de ustedes cada día!! ❤️ Usha por tolerar mis desesperaciones y ponerme de buen humor!! 🤓 ❤️ Vianey, por ayudarme sin darme respuestas!!
+
+❤️ Jonh, por toda la paciencia y apoyo!!
+
+❤️ Silvana, Dení, Serge, Liz; por la guía y la motivación!!
+❤️ Cata, por motivarme a no rendirme!!
+
+❤️❤️ ¡Gracias a todos, vamos por el próximo! ️❤️❤️
 
 
 
