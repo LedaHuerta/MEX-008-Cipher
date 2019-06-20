@@ -128,6 +128,22 @@ El diseño se implementó bajo el concepto de una inocente página de belleza qu
 
 ![app-cipher-web](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/app-cipher.png)
 
+# Ejecutando los tests 🖇️
+
+![cifrado](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/pruebas-cifrado.png)
+
+![statements](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/pruebas-statements.png)
+
+# Hacker Edition 🛠️
+
+## Front End:
+
+![hacker-edition](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/hacker-edition-fe.png)
+
+
+## UX:
+
+![business-model](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/business-model-canvas.png)
 
 ## Construido con 🛠️
 
