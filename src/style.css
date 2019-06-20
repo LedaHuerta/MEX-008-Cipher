@@ -47,11 +47,6 @@ img#img-central{
   width: 50%;
   height: 50%;
 }
-
-p.subtitle {
-  text-align: justify;
-}
-
 article {
   text-align: center;
   font-size: 1em;
@@ -63,9 +58,23 @@ b {
   color: #097579;
 }
 
-div#box-1{
+.cards {
   background-color: #fcffff;
-  display: flexbox
+  display: flex;
+  justify-content: space-between;
+  justify-items: inherit;
+  width: inherit;
+  }
+
+.cont {
+  display: flex;
+  justify-items: auto;
+  width: inherit;
+  
+}
+
+.media {
+  display: flex;
 }
 
 
@@ -93,7 +102,7 @@ input#text-input {
 }
 
 input#text-input:focus {
-  background-color: ;#fcffff;
+  background-color: #fcffff;
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 0px;
