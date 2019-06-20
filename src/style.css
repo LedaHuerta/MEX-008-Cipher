@@ -1,6 +1,7 @@
 /*Importando fuentes*/
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600&display=swap');
 /*asignar qué hace mi clase*/
+
 .hide {
   display: none;
 }
@@ -20,19 +21,12 @@ main {
   background-color: #fcffff;
 }
 
-/*ubicar elementos*/
-img.centrado {
-  width: 20%;
-  height: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+hr {
+  height: 3px;
+  background-color: #666666;
+  border: none;
 }
-
-img#img-central{
-  width: 50%;
-  height: 50%;
-}
+/*primera seccion*/
 
 h1 {
   text-align: center;
@@ -49,16 +43,15 @@ h2 {
   padding: 0;
   margin: 0em, 2 em, 1em;
 }
-hr {
-  height: 3px;
-  background-color: #666666;
-  border: none;
+img#img-central{
+  width: 50%;
+  height: 50%;
 }
-li {
+
+p.subtitle {
   text-align: justify;
 }
 
-/*Dar estilo a elementos*/
 article {
   text-align: center;
   font-size: 1em;
@@ -67,10 +60,20 @@ article {
 }
 
 b {
-  color: #4c2882;
+  color: #097579;
 }
 
+div#box-1{
+  background-color: #fcffff;
+  display: flexbox
+}
+
+
+/*segunda seccion*/
+
 p#content-1 {
+  text-align: center center;
+  align-content: center center;
   width: 600px;
   height: 180px;
   background: url(logo-marca-letra-m.png);
@@ -90,7 +93,7 @@ input#text-input {
 }
 
 input#text-input:focus {
-  background-color: #fcffff;
+  background-color: ;#fcffff;
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 0px;
@@ -149,7 +152,9 @@ input#select-key{
 }
 
 button#button-code,
-button#button-decode {
+button#button-decode,
+button#button-copy,
+button#button-clear {
   background-color: #fcffff;
   color: #666666;
   font-family:'Fira Sans Extra Condensed', sans-serif;
@@ -180,4 +185,12 @@ span{
   font-family:'Fira Sans Extra Condensed', sans-serif;
   margin-left: 10px;
   margin-right: 10px;  
+}
+
+p#footer{
+  font-family:'Fira Sans Extra Condensed', sans-serif;
+  color: #666666;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 10px;
 }
