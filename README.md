@@ -1,4 +1,4 @@
-# M E T A M O R F O S I S
+# M  E  T  A  M  O  R  F  O  S  I  S
 
 Aplicación web de Cifrado César que sirve para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (offset).
 ## Pre-requisitos 📋
@@ -19,6 +19,111 @@ Primero se planteó el contexto:
 •	¿Cómo debe ser la experiencia de uso?
 
 Empecé investigando las aplicaciones similares que existen en el mercado, comparando las características que había entre ellas, quienes son los usuarios y qué problema podía resolver.
+
+![process-research](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/research-1.jpg)
+
+![process-research-2](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/research-2.jpg)
+
+![tabla-comparativa](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/tabla-comparativa.png)
+
+## Entrevista🔩
+
+
+Después entreviste a un usuario de CONFIDE, quién me informo lo siguiente:
+
+¿Para que usas la aplicación?
+R= Para enviar mensajes sin que nadie los vea o entienda.
+¿Por qué necesitas cifrar mensajes?
+R=Trabajo con información delicada y me gusta mantener la privacidad de mis asuntos
+¿Qué funcionalidad debe tener una app de cifrado para ti?
+R= Que cifre y descifre sin problema, que sea discreta para que no de curiosidad y la quieran abrir que es lo que me pasa con confide. Que no se traba ni sea lenta, que pueda usarla desde cualquier sitio y dispositivo.
+
+## Insights 📢
+•	_Los medios de comunicación utilizan herramientas de cifrado de mensajes como canal con sus reportes encubiertos._
+
+•	_Según el  informe 2018 que elaboró el Colectivo de Análisis de la Seguridad con Democracia (CASEDE) —el cual se dará a conocer el 24 de septiembre de ese mismo año— sobre la Libertad de expresión, protección y seguridad de periodistas y personas defensoras de derechos humanos: 8 de cada 10 reporteros y activistas fueron amenazados de muerte, acosados o padecieron ataques físicos y verbales tanto por autoridades estatales y federales como por el narcotráfico._
+
+•	_21 periodistas están desaparecidos en México desde el año 2003, según la organización Reporteros Sin Fronteras (RSF)._
+
+![datos](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/datos-reporteros.jpg)
+
+Así surgió la información suficiente para crear un usuario:
+
+## User Persona (Arquetipo Persona) 
+
+![user-persona](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/user-persona.png)
+
+
+### Necesidades 
+
+•	Contar con un canal de comunicación discreto y seguro entre la empresa de comunicación y el reportero.
+
+•	Enviar mensajes secretos.
+
+•	No dejar rastro de la información.
+
+•	Aplicación accesible desde cualquier dispositivo
+
+•	Aplicación rápida y confiable.
+
+•	Aplicación y marca discreta.
+
+•	Ocultar la información en caso de una emergencia.
+
+•	Interfaz amigable y que le permita proteger su identidad.
+
+## Prototipos 🔧
+
+Una vez que tuve claro quién era el usuario, su contexto y cuáles son sus necesidades llegó el momento de idear cómo podía ayudarlo:
+
+### Solución:
+
+```
+Crear una aplicación web que ayude a las empresas de comunicación a mantener un canal seguro por el cuál intercambiar la información descubierta.
+Discreta, que no deje rastro y que sea rápida.
+```
+### ⚙️ El primer Sketch:
+
+![sketch](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/sketch.jpg)
+
+Después de hacer algunas pruebas y recibir feedback se concluyó que:
+```
+Para mantener mejor la cubierta, podría agregar una pantalla de un artículo "fake", a la cuál se pudiera regresar en caso de emergencia.
+```
+
+### ⚙️ Sketch de artículo de seguridad:
+
+![sketch-articulo](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/sketch-art-fake.jpg)
+
+Una vez que se logró el primer prototipo llegó la hora de aterrizar la idea con un Site-Map:
+
+![site-map](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/site-map.jpg)
+
+```
+Al recibir feedback se concluyó que una página de agradecimiento no era necesaria, ya que pone en riesgo la discreción que queremos lograr.
+```
+### 🔩 Low Prototype
+
+![prototipo](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/prototipo2-diseno.png)
+
+
+![prototipo-funciones](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/prototipo2-funciones.png)
+
+```
+Escogí una paleta en tonos azules, blancos y grises que inspira confianza y es discreta, el diseño es minimalista y femenino, disumulando la funcionalidad real de la aplicación.
+El diseño se implementó bajo el concepto de una inocente página de belleza que cualquier mujer consulta regularmente.
+```
+# Aplicación Funcionando:
+![](https://github.com/LedaHuerta/MEX-008-Cipher/blob/master/src/img/)
+### Este es el artículo de seguridad:
+
+
+###
+
+
+
+
+
 
 
 # Cifrado César
